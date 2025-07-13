@@ -15,5 +15,6 @@ class largest{
         }else{
             System.out.println("Z is largest");
         }
+        input.close();
     }
 }

@@ -12,5 +12,6 @@ public class Checkcase {
         }else{
             System.out.println("Uppercase");
         }
+        in.close();
     }
 }

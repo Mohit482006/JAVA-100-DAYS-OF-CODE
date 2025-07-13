@@ -12,5 +12,6 @@ public class Areaofparallelogram {
     int height=input.nextInt();
 
     System.out.println("Area of Parallelogram: "+(base*height));
+    input.close();
     }
 }

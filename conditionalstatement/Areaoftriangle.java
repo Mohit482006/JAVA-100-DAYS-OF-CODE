@@ -12,5 +12,6 @@ public class Areaoftriangle {
         int height=input.nextInt();
 
         System.out.println("Area of triangle is "+(0.5*base*height));
+        input.close();
     }
 }
