@@ -36,7 +36,7 @@ public class merge_sort {
         int j=0;
         int k=l;
         while(i<n1 && j<n2){
-            if(left[i]<right[j]){
+            if(left[i]<=right[j]){
                 arr[k++]=left[i++];
             }
             else{
